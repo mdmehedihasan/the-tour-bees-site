@@ -1,0 +1,23 @@
+.main-div {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+/* Responsive for the site */
+@media only screen and (max-width:576px) {
+    .main-div {
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+
+
+    .main-div {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

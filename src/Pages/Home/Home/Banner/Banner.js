@@ -20,7 +20,7 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>Cox's Bazar Sea Beatch</h3>
+                        <h3>Cox's Bazar Sea Beach</h3>
                         <p>Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
