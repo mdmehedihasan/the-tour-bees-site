@@ -10,7 +10,7 @@ const Service = ({ service }) => {
     }
     return (
         <div className='service py-5'>
-            <img className='my-3' src={img} alt="" />
+            <img className='my-3 border border rounded' src={img} alt="" />
             <h2>{name}</h2>
             <p>{description}</p>
             <p>Price: {price} Taka</p>

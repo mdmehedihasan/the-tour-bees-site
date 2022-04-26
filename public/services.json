@@ -1,23 +1,23 @@
 [
     {
         "id": 1,
-        "name": "Rangamati Tour",
+        "name": "Rangamati Guide",
         "price": "3000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Rangamati Hill District, is a district in south-eastern Bangladesh. It is a part of the Chittagong Division and the town of Rangamati serves as the headquarters of the distric",
         "img": "https://i.ibb.co/GkkjVfY/service3.jpg"
     },
     {
         "id": 2,
-        "name": "Bandarban Tour",
+        "name": "Bandarban Guide",
         "price": "5000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Regular strees of city life tends to such the energy out of the soul pushing people towards chronic anixity. Every once in a while, you must plan a vaccation on a hill Bandarban",
         "img": "https://i.ibb.co/3WthTJj/service2.jpg"
     },
     {
         "id": 3,
-        "name": "Cox's Bazar Tour",
+        "name": "Cox's Bazar Guide",
         "price": "4550",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "ox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south.",
         "img": "https://i.ibb.co/1LVzJc0/service1.jpg"
     }
 ]
