@@ -85,9 +85,12 @@ const Login = () => {
                 </Button>
             </Form>
             {errorOccur}
-            <p className='text-start mt-2'>New to Genius Car? <span className='text-danger' onClick={navigateRegister} role="button" tabindex="0">Register Now</span> </p>
 
-            <p>Forgot password? <button onClick={resetPassword} className='text primary'>reset</button></p>
+            <p className='text-start mt-2'>New to The Tour Bees? <span className='text-danger' onClick={navigateRegister} role="button" tabindex="0">Register Now</span> </p>
+
+            <p className='text-start mt-2'>Forgot password? <span className='text-danger' onClick={resetPassword} role="button" tabindex="0">Reset Now</span> </p>
+
+
             <SocialLogin></SocialLogin>
             <ToastContainer />
         </div>
