@@ -6,7 +6,6 @@ import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { sendPasswordResetEmail } from 'firebase/auth';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -55,10 +54,10 @@ const Login = () => {
         const email = emailRef.current.value;
         if (email) {
             await sendPasswordResetEmail(email);
-            toast('Sent Email');
+            toast('Email Sent');
         }
         else {
-            toast('please enter your email');
+            toast('Please Enter Your Email First');
         }
 
 
@@ -89,7 +88,6 @@ const Login = () => {
             <p className='text-start mt-2'>New to The Tour Bees? <span className='text-danger' onClick={navigateRegister} role="button" tabindex="0">Register Now</span> </p>
 
             <p className='text-start mt-2'>Forgot password? <span className='text-danger' onClick={resetPassword} role="button" tabindex="0">Reset Now</span> </p>
-
 
             <SocialLogin></SocialLogin>
             <ToastContainer />
