@@ -4,7 +4,7 @@ import { Accordion } from 'react-bootstrap';
 const Faq = () => {
     return (
         <div>
-            <h2 className="heading-title mt-5" id='services'>FAQ</h2>
+            <h2 className="heading-title mt-5" id='faq'>FAQ</h2>
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Accordion Item #1</Accordion.Header>
