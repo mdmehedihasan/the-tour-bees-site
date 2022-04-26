@@ -28,9 +28,9 @@ const SocialLogin = () => {
 
         <div>
             <div className='d-flex align-items-center'>
-                <div className='bg-primary w-50' style={{ height: '1px' }}></div>
+                <div className='bg-success w-50' style={{ height: '1px' }}></div>
                 <p className='mt-2 px-2'>OR</p>
-                <div className='bg-primary w-50' style={{ height: '1px' }}></div>
+                <div className='bg-success w-50' style={{ height: '1px' }}></div>
                 <div />
             </div>
 
@@ -38,7 +38,7 @@ const SocialLogin = () => {
                 {errorOccur}
                 <button
                     onClick={() => signInWithGoogle()}
-                    className='btn btn-primary w-50 '>
+                    className='btn btn-success w-50 '>
                     <img style={{ width: '30px' }} src={google} alt="" />
                     <span>Google Sign In </span>
                 </button>

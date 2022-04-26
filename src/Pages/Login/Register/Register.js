@@ -57,11 +57,11 @@ const Register = () => {
                         <Form.Control type="password" name="password" placeholder="Password" required />
                     </Form.Group>
 
-                    <Button variant="primary" type="submit">
+                    <Button variant="success" type="submit">
                         Register
                     </Button>
                 </Form>
-                <p className='text-start mt-2'>Already have an account? <span className='text-danger' onClick={navigateLogin} role="button" tabindex="0">Login Now</span> </p>
+                <p className='text-start mt-2'>Already have an account? <span className='text-success' onClick={navigateLogin} role="button" tabindex="0">Login Now</span> </p>
             </div>
             <div className='w-50 mx-auto'>
                 <SocialLogin></SocialLogin>

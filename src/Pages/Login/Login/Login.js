@@ -79,15 +79,15 @@ const Login = () => {
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
 
-                <Button variant="primary" type="submit">
+                <Button variant="success" type="submit">
                     Log In
                 </Button>
             </Form>
             {errorOccur}
 
-            <p className='text-start mt-2'>New to The Tour Bees? <span className='text-danger' onClick={navigateRegister} role="button" tabindex="0">Register Now</span> </p>
+            <p className='text-start mt-2'>New to The Tour Bees? <span className='text-success' onClick={navigateRegister} role="button" tabindex="0">Register Now</span> </p>
 
-            <p className='text-start mt-2'>Forgot password? <span className='text-danger' onClick={resetPassword} role="button" tabindex="0">Reset Now</span> </p>
+            <p className='text-start mt-2'>Forgot password? <span className='text-success' onClick={resetPassword} role="button" tabindex="0">Reset Now</span> </p>
 
             <SocialLogin></SocialLogin>
             <ToastContainer />

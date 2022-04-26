@@ -8,7 +8,7 @@ const ServiceDetail = () => {
             <h3>Welcome to details:{serviceId}</h3>
             <div>
                 <Link to="/checkout">
-                    <button className='btn btn-primary'>Checkout</button>
+                    <button className='btn btn-success'>Checkout</button>
                 </Link>
             </div>
 
