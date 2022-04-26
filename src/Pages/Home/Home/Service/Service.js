@@ -10,10 +10,10 @@ const Service = ({ service }) => {
     }
     return (
         <div className='service py-5'>
-            <img src={img} alt="" />
+            <img className='my-3' src={img} alt="" />
             <h2>{name}</h2>
             <p>{description}</p>
-            <p>Price:{price}</p>
+            <p>Price: {price} Taka</p>
             <button className='btn btn-primary' onClick={() => navigateToServiceDetail(id)}>Book Now</button>
         </div>
     );
