@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# Assignment 10 (The Tour Bees Project)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Website Link
+
+[Create React App](https://the-tour-bees-cdf1c.web.app)
+
+
+## Feature Of My Project
+* Sign in with google and email password
+* User can not go to checkout page unless login
+* Automatic toggle for logedin user to see the logout button top of the site
+*  Email verification system
+*  Password reset  system
 
 In the project directory, you can run:
 
