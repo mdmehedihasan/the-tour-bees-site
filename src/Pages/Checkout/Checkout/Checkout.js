@@ -1,7 +1,17 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 const Checkout = () => {
+
+    const proceedon = () => {
+        toast('Thank you for booking');
+    }
+
+
     return (
         <div className='w-50 mx-auto'>
             <h3 className='text-success py-3'>Checkout Page</h3>
@@ -21,10 +31,12 @@ const Checkout = () => {
                     <Form.Control type="number" name="number" placeholder="Your Phone Number" required />
                 </Form.Group>
 
-                <Button variant="success" type="submit">
+                <Button onClick={proceedon} variant="success">
                     Proceed On
                 </Button>
+                <ToastContainer />
             </Form>
+
         </div>
     );
 };
