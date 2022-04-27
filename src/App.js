@@ -10,7 +10,7 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import Checkout from './Pages/Checkout/Checkout/Checkout';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
-import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
+
 
 function App() {
   return (
@@ -23,8 +23,6 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-
-        <Route path='/service/:serviceId' element={<ServiceDetail></ServiceDetail>}></Route>
 
         <Route path='/checkout' element={
           <RequireAuth>
