@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ServiceDetail from '../../../ServiceDetail/ServiceDetail';
 import Service from '../Service/Service';
 import "../Services/Services.css"
 
